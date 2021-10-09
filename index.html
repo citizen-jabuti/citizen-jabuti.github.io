@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Beckloot versions</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <script src='./web3.min.js'></script>
+</head>
+
+<body>
+
+    Beckloot versions
+    <br >
+    <select id="contract"><option value="0x86357a19e5537a8fba9a004e555713bc943a66c0">Loading...</option></select> Choose Contract Version <br />
+    <input id="tokenId" value="1" /> Token ID <br />
+    <button onclick="showCharacterButton();">Show Character</button>
+    <br /><br />
+    <div>Status: <span id="status">Loading...</span></div>
+    <img id="image" style="max-width: 800px;"/>
+    <pre id="json"></pre>
+
+    <script type="text/javascript" src='./index.js'></script>
+</body>
+
+</html>
